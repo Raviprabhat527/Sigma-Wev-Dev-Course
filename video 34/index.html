@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+    <style>
+        .cards{
+            border: 2px solid rgb(25, 14, 14);
+            display: flow-root;
+        }
+       img{
+        float: left;
+       }
+
+       .card{
+        border: 2px solid red;
+       }
+
+       .card:nth-child(3){
+        background-color: aqua;
+        clear: both;
+       }
+    </style>
+</head>
+<body>
+    <div class="cards">
+      <img src="https://media.istockphoto.com/id/928826678/photo/two-men-relaxing-and-fishing.jpg?s=2048x2048&w=is&k=20&c=fSG5LG9kxLNzjG9_YI1bXdz3-gD7UW2e2bd9arD5Vm8="" alt="" width="225">
+      <div class="card">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nesciunt reiciendis quam cumque, animi dolorem explicabo deserunt accusamus nemo, quidem minima odit error aspernatur maiores?</p>
+      </div>
+      <div class="card">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, doloremque vero! Officia nulla, perferendis praesentium, in mollitia quis a tempore maiores numquam alias est quisquam, eius similique quia!. Tenetur doloremque beatae mollitia ad iusto, eaque explicabo ea natus veniam? Dolorem placeat dolores iste provident maxime deleniti animi ab! Quasi cum nisi rerum amet vero! Sint, sed fugit, obcaecati tempora dignissimos, error similique excepturi explicabo placeat numquam ea. Aliquid autem laborum explicabo quod? Dolores fugiat similique asperiores suscipit itaque mollitia, laboriosam ea quis est totam, provident architecto. Reiciendis maiores esse nemo facilis, architecto veritatis unde omnis harum, hic velit in atque rem. Accusamus reprehenderit,  illo accusantium ad itaque aliquid consectetur nobis quas. Est, omnis dolorem?</p>
+      </div>
+      <div class="card">Card 3</div>
+   </div>
+</body>
+</html>
