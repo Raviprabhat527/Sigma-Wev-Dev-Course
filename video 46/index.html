@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentCSS Animation</title>
+    <style>
+        .container{
+            background-color: darkgreen;
+            width: 30vw;
+            height: 80vh;
+        }
+        .box{
+            width: 34px;
+            height: 45px;
+            animation-name: harryKaAnimation; 
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0, 0, 0, 0.89);
+            animation-delay: 5s;
+           /* animation-direction: alternate-reverse; */ 
+           animation-play-state: running;
+
+        }
+        @keyframes harryKaAnimation {
+            from{
+                background-color: red;
+            }
+            to{ 
+                background-color: rgb(7, 19, 242);
+                transform: translateX(1000px); 
+            }
+        }
+        @keyframes harry2 {
+            0%{
+                transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(200deg);
+            }
+            50%{
+                transform: rotate(220deg);
+            }
+            80%{ 
+                transform: rotate(300deg);
+            }
+            1000%{ 
+                transform: rotate(350deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>
