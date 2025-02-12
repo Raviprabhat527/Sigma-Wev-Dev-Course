@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object</title>
+    <style>
+        .container{
+            height: 434px;
+            width: 488px;
+            border: 2px solid black;
+            background-position: center center;
+            background-image: url("https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGFraW5nJTIwcGhvdG98ZW58MHx8MHx8fDA%3D");
+          /*  background-color: aquamarine; */
+        }
+        img{
+            width: 488px;
+            height: 434px;
+            object-fit: contain;
+           /* object-fit: cover; */
+          /* object-fit: fill; */
+           object-position: 10px 20px;
+          /*  object-fit: contain; */
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="">
+    </div>
+</body>
+</html>
