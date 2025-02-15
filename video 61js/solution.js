@@ -26,7 +26,7 @@ let obj = {
 if(random > 0.1){
     //perfoem carrect calculation 
     console.log(`the result is ${a} ${c} ${b}`)
-    alert(`The result is ${eval(`$(a) $(c) $(c)`)}`)
+    alert(`The result is ${eval(`$(a) $(c) $(b)`)}`)
 }
 
 else{
