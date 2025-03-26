@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>'Spotify - Web Player: Music for everyone'</title>
+</head>
+<body>
+    <div class="container flex bg-black">
+     <div class="left">
+        <div class="home bg-grey rounded m-1 p-1">
+           <div class="logo"><img class="invert" src="logo.svg" alt=""></div> 
+           <ul>
+            <!-- <li><img class="invert" src="logo.svg" alt="spotify">Spotify</li> -->
+                <li><img class="invert" src="home.svg" alt="home">Home</li>
+                <li><img class="invert" src="search.svg" alt="search">Search</li>
+            </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <!--<img src="library.svg" alt="library">-->
+          <div class="heading">
+            <img class="invert" src="library.svg" alt="">
+            <h2>
+                Your Library
+            </h2>
+          </div>
+          <div class="footer">
+            <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/safetyandprivacy"><span>Safety & Privacy Center</span></a><div>
+            <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>privacy-policy</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/accessibility"><span>accessibility</span></a></div>
+           </div>
+        </div>
+     </div>
+      <div class="right bg-grey rounded">
+        <div class="header">
+          <div class="nav">
+            <div class="hamburgerContainer">
+
+              <img width="40" class="invert hamburger" src="img/hamburger.svg" alt="">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                      d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                      stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                      d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                      stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+          </div>
+          </div>
+            <div class="buttons">
+              <button class="signupbtn">Sign up</button>
+              <button class="loginbtn">Log in</button>
+            </div>
+        </div>
+        <div class="trendingSongs">
+          <h1>Trending Songs</h1>
+          <div class="cardContainer">
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+           
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+           <!-- <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5.78987C5.25 4.42081 6.7512 3.58195 7.91717 4.29947L18.0091 10.5099C19.1196 11.1933 19.1196 12.8074 18.0091 13.4907L7.91717 19.7011C6.7512 20.4187 5.25 19.5798 5.25 18.2107V5.78987Z" fill="#000000"></path>
+                </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div> -->
+           <!--  <div class="card">
+              <img src="https://i.scdn.co/image/ab67616d00001e024e081a1db1702e9019d40a3b" alt="">
+              <h2>2 Khatole</h2>
+              <p>Masoom Sharma, Manjeet Mor, Chahal Saab, Vikash Rajana<p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
