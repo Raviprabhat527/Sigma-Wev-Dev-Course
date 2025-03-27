@@ -1,10 +1,11 @@
 {
-  "name": "node2",
+  "name": "npmm",
   "version": "1.0.0",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon index"
+    "start": "nodemon index"
   },
   "keywords": [],
   "author": "",
